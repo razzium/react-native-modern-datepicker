@@ -145,6 +145,11 @@ const SelectTime = () => {
     });
   }, [mainState.timeOpen, openAnimation]);
 
+  useEffect(() => {
+    selectTime()
+
+  }, [time])
+
   const selectTime = () => {
     const newTime = utils.getDate(mainState.activeDate);
     newTime.hour(time.hour).minute(time.minute);
@@ -195,9 +200,9 @@ const SelectTime = () => {
         onChange={minute => setTime({...time, minute})}
       />
       <View style={style.footer}>
-        <TouchableOpacity style={style.button} activeOpacity={0.8} onPress={selectTime}>
+        {/* <TouchableOpacity style={style.button} activeOpacity={0.8} onPress={selectTime}>
           <Text style={style.btnText}>{utils.config.timeSelect}</Text>
-        </TouchableOpacity>
+        </TouchableOpacity> */}
         {mode !== 'time' && (
           <TouchableOpacity
             style={[style.button, style.cancelButton]}
