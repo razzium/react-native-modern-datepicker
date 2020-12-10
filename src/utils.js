@@ -34,7 +34,7 @@ const gregorianConfigs = {
   dayNamesShort: ['Di', 'Lu', 'Ma', 'Me', 'Je', 'Ve', 'Sa'],
   monthNames: [
     'Janvier',
-    'Vévrier',
+    'Février',
     'Mars',
     'Avril',
     'Mai',
