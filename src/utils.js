@@ -44,7 +44,7 @@ const gregorianConfigs = {
     'Septembre',
     'Octobre',
     'Novembre',
-    'Decembre',
+    'Décembre',
   ],
   selectedFormat: 'DD/MM/YYYY',
   dateFormat: 'DD/MM/YYYY',
