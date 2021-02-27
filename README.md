@@ -1,5 +1,5 @@
 # React Native Modern Datepicker 📆
-
+This project will not not be maintained.
 A customizable calendar, time & month picker for React Native (including Persian Jalaali calendar & locale). For more information, please visit [website](https://hosseinshabani.github.io/react-native-modern-datepicker)
 
 <a href="https://hosseinshabani.github.io/react-native-modern-datepicker">
